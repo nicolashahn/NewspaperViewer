@@ -61,7 +61,7 @@ public class WebviewActivity1 extends Activity {
     private class MyWebViewClient extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            if (Uri.parse(url).getHost().equals(HOST_URL)) {
+            if (Uri.parse(url).getHost().equals(HOST_URL) || Uri.parse(url).getHost().equals("nytimes.com")) {
                 // This is my web site, so do not override; let my WebView load the page
                 return false;
             }
@@ -70,7 +70,6 @@ public class WebviewActivity1 extends Activity {
             startActivity(intent);
             return true;
         }
-
     }
 
     // The back button should go back in page history, not in app history.
