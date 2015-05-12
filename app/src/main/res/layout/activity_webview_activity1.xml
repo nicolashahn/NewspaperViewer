@@ -31,7 +31,7 @@
         android:layout_margin="10dp"
         android:onClick="shareButton"
         android:clickable="true"
-        android:textColor="#DDDDDD"
+        android:textColor="#FFFFFF"
         android:textSize="18dp" />
 
     <Button
@@ -46,7 +46,7 @@
         android:padding="10dp"
         android:onClick="returnButton"
         android:clickable="true"
-        android:textColor="#DDDDDD"
+        android:textColor="#FFFFFF"
         android:textSize="12dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"

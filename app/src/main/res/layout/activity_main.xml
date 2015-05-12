@@ -16,11 +16,14 @@
         <Button
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text="New York Times"
-            android:id="@+id/nytButton"
+            android:text="San Francisco Gate"
+            android:id="@+id/sfgButton"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10dp"
-            android:onClick="clickButton" />
+            android:onClick="clickButton"
+            android:textStyle="bold"
+            android:background="#555555"
+            android:textColor="#FFFFFF" />
 
         <Button
             android:layout_width="250dp"
@@ -29,7 +32,10 @@
             android:id="@+id/sjmnButton"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10dp"
-            android:onClick="clickButton" />
+            android:onClick="clickButton"
+            android:textStyle="bold"
+            android:background="#555555"
+            android:textColor="#FFFFFF" />
 
         <Button
             android:layout_width="250dp"
@@ -38,6 +44,9 @@
             android:id="@+id/scsButton"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10dp"
-            android:onClick="clickButton" />
+            android:onClick="clickButton"
+            android:textStyle="bold"
+            android:background="#555555"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 </LinearLayout>

@@ -12,7 +12,7 @@ import android.widget.Button;
 
 public class MainActivity extends ActionBarActivity {
 
-    static final public String NYT_URL = "http://mobile.nytimes.com";
+    static final public String SFG_URL = "http://m.sfgate.com";
     static final public String SJMN_URL = "http://www.mercurynews.com";
     static final public String SCS_URL = "http://www.santacruzsentinel.com";
 
@@ -52,8 +52,8 @@ public class MainActivity extends ActionBarActivity {
         Button b = (Button) v;
         String url = null;
         switch(b.getId()){
-            case R.id.nytButton:
-                url = NYT_URL;
+            case R.id.sfgButton:
+                url = SFG_URL;
                 break;
             case R.id.sjmnButton:
                 url = SJMN_URL;
